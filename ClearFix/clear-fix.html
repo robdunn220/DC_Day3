@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Float Boxes</title>
+    <style>
+    .row {
+      /* the following black background isn't appearing! Fix it. */
+      background-color: black;
+      margin: 10px;
+    }
+    .box {
+      width: 100px;
+      height: 100px;
+      background-color: yellow;
+      margin: 10px;
+      float: left;
+    }
+    .cf:before,
+    .cf:after {
+      content: " ";
+      display: table;
+    }
+
+    .cf:after {
+      clear: both;
+    }
+    </style>
+  </head>
+  <body>
+    <div id="content" class="cf">
+    <div class="row">
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+    </div>
+    <div class="row">
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+    </div>
+    </div>
+  </body>
+</html>

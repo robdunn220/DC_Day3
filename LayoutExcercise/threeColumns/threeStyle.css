@@ -1,0 +1,28 @@
+#leftColumn {
+  width: 20%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background-color: #8470FF;
+  position: absolute;
+  margin: 0;
+}
+
+#rightColumn {
+  left: 80%;
+  width: 20%;
+  height: 100%;
+  top: 0;
+  background-color: #C0FF3E;
+  position: absolute;
+  margin: 0;
+}
+
+#middleColumn {
+  position: absolute;
+  width: 60%;
+  height: 100%;
+  left: 20%;
+  top: 0;
+  background-color: red;
+}

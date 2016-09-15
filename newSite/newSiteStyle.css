@@ -1,0 +1,29 @@
+.fullPage {
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+}
+
+.header {
+  background-color: black;
+}
+
+.menuBar {
+  width: auto;
+  height: auto;
+  display: inline;
+  margin: auto;
+}
+
+h1 {
+  font-family: 'Lobster', cursive;
+  color: white;
+  font-size: 60px;
+}
+
+button {
+  font-family: 'Lobster', cursive;
+  color: white;
+  font-size: 40px;
+  background-color: black;
+}

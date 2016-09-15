@@ -1,0 +1,43 @@
+/*/**/
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0,0,0,0.5);
+}
+/**/
+
+.modal-dialog {
+  position: fixed;
+  border-radius: 8px;
+  border-width: 14px 10px 10px 10px;
+  border-style: solid;
+  border-color: #6d6a6a;
+  background-color: white;
+  width: 340px;
+  height: 140px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 3px 3px 3px #000000;
+}
+
+.modal-header {
+  background-color: #6d6a6a;
+}
+
+.modal-title {
+  color: white;
+  font-size: 30px;
+  padding: 4px;
+}
+
+.modal-content {
+  padding: 0px 8px 0px 8px;
+}
+
+.modal-buttons {
+  transform: translate(70%, 40%);
+}

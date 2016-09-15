@@ -1,0 +1,83 @@
+/* First Column */
+#topL {
+  width: 33%;
+  height: 33%;
+  left: 0;
+  top: 0;
+  background-color: #8470FF;
+  position: absolute;
+}
+
+#midL {
+  width: 33%;
+  height: 33%;
+  left: 0;
+  top: 33%;
+  position: absolute;
+  background-color: #CD6839;
+}
+
+#botL {
+  width: 33%;
+  height: 33%;
+  left: 0;
+  top: 66%;
+  position: absolute;
+  background-color: #71C671;
+}
+
+/*Second column */
+#topC {
+  width: 33%;
+  height: 33%;
+  left: 33%;
+  top: 0;
+  background-color: #848484;
+  position: absolute;
+}
+
+#midC {
+  width: 33%;
+  height: 33%;
+  left: 33%;
+  top: 33%;
+  position: absolute;
+  background-color: #7CFC00;
+}
+
+#botC {
+  width: 33%;
+  height: 33%;
+  left: 33%;
+  top: 66%;
+  position: absolute;
+  background-color: #97FFFF;
+}
+
+/* Thrid column */
+#topR {
+  width: 33%;
+  height: 33%;
+  left: 66%;
+  top: 0;
+  background-color: #9B30FF;
+  position: absolute;
+}
+
+#midR {
+  width: 33%;
+  height: 33%;
+  left: 66%;
+  top: 33%;
+  position: absolute;
+  background-color: #FF3E96;
+}
+
+#botR {
+  width: 33%;
+  height: 33%;
+  left: 66%;
+  top: 66%;
+  position: absolute;
+  background-color: #7FFFD4;
+}
